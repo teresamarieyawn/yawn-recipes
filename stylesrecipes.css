@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFA;
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    padding: 20px;
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the container */
+}
+
+.content {
+    flex: 3;
+    padding: 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column; /* Ensure children stack vertically */
+    align-items: center; /* Center children horizontally */
+	margin-top: 27px;
+}
+
+
+
+
+
+
+.fixed-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #333;
+    background-color: #3B618D;
+	height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Make sure the header stays on top of other elements */
+    }
+
+.headermargin {
+	margin-bottom: 22px;
+}
+
+.headertext {
+	margin-top: 12px;
+	font-size: 1.2rem;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFA;
+}
+
+.menutext {
+	margin-top: 6px;
+	font-size: 0.9rem;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFA;	
+}
+
+h1 {
+	font-size: 1.2rem;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFA;
+}
+
+.titletext {
+	font-size: 1.2rem;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFA;
+}
+
+.year {
+	margin-top: 22px;
+	margin-bottom: 3px;
+	font-weight: bold;
+	font-size: 1.6rem;
+	width: 60%;
+	text-align: center;
+	color: black;
+}
+
+hr {
+	width: 60%;
+	color: black;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.homeposts  {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: center;
+}
+
+h2.title {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.4rem;
+	width: 90%;
+	text-align: center;
+}
+
+h3.subtitle {
+	margin-top: 6px;
+	margin-bottom: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1rem;
+	font-style: bold;
+	width: 90%;
+	text-align: center;
+}
+
+p {
+	margin-top: 7px;
+	width: 56%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 7px;
+	font-size: 0.9rem;
+	color: #333;
+	text-align: center;
+	line-height: 1.2rem;
+}
+
+.postimage {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+.postimage img {
+	width: 100%;
+}
+
+.imagetitle {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.8rem;
+	width: 90%;
+	text-align: center;
+	color: #333;
+}
+
+
+
+
+
+.nodecoration {
+      text-decoration: none; /* Removes underline */
+    }
+
+
+
+
+
+
+
+.footer {
+	margin-top: 66px;
+	margin-bottom: 220px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 840px) { /* Adjust the max-width value according to your needs */
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 760px) { /* Adjust the max-width value according to your needs */
+ 
+	h2 {
+		font-size: 1.2rem;
+		color: red;
+	}
+
+	h3 {
+		font-size: 0.9rem;
+		color: red;
+	}
+
+	p {
+		font-size: 0.7rem;
+		color: red;
+		width: 80%;
+	}
+
+.lightbox .close {
+  font-size: 1rem;
+}
+
+}
+
+
+
+
+
+
+
+
